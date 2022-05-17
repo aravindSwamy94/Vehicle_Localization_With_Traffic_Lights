@@ -1,0 +1,4 @@
+<launch>
+    <node name="object_location" pkg="object_location" type="main.py" output="screen"></node>
+    <node name="object_location_car" pkg="object_location" type="blue_car.py" output="screen"></node>
+</launch>
